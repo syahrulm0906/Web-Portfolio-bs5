@@ -1,0 +1,133 @@
+@media screen and (max-width : 1200px) {
+    #hero p {
+        font-size: .9rem;
+    }
+    #hero h1 {
+        font-size: 2.3rem;
+    }
+    #skill .card {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 20px;
+    }
+    #about hr {
+        width: 220px;
+    }
+    #sertifikat hr {
+        width: 210px;
+    }
+    #gallery hr {
+        width: 340px;
+    }
+}
+
+
+@media screen and (max-width : 992px) {
+    #about hr {
+        width: 210px;
+    }
+    #sertifikat hr {
+        width: 200px;
+    }
+    #gallery hr {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    #hero img {
+        width: 100%;
+    }
+    .btn-custom1 {
+        width: 80%;
+    }
+    .social-icon {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #hero .row {
+        padding-bottom: 90px;
+    }
+    #about .kata {
+        text-align: center !important;
+    }
+    #about p {
+        text-align: justify !important;
+    }
+    #skill .card h3 {
+        font-size: 1.3rem;
+    }
+    #skill .card {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        margin-top: 20px;
+    }
+    #about hr {
+        width: 200px;
+    }
+    #sertifikat hr {
+        width: 190px;
+    }
+    #skill hr {
+        width: 90px;
+    }
+    #gallery hr {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    #about hr {
+        width: 180px;
+    }
+    #sertifikat hr {
+        width: 160px;
+    }
+    #gallery hr {
+        width: 275px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    footer img {
+        width: 75px;
+    }
+    footer p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width : 445px) {
+    .social-icon svg {
+        margin-right: .5em;
+    }
+}
+
+@media screen and (max-width : 445px) {
+    .social-icon svg {
+        margin-right: .3em;
+    }
+}
+
+@media screen and (max-width : 445px) {
+    .social-icon svg {
+        margin-right: .1em;
+    }
+}
+@media screen and (max-width : 333px) {
+    .social-icon svg {
+        width: 25px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width : 350px) {
+    #gallery .col-md-12 {
+        flex-direction: column;
+    }
+    #hero p {
+        margin-bottom: 0;
+    }
+    .social-icon svg {
+        margin-right: 0;
+    }
+}
